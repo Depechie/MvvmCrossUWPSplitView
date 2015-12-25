@@ -11,8 +11,11 @@ namespace MvvmCrossUWP.Core.ViewModels
         private MvxCommand _thirdCommand;
         public ICommand ThirdCommand => (_thirdCommand = _thirdCommand ?? new MvxCommand(() => ShowViewModel<ThirdViewModel>()));
 
+        private MvxCommand _frameLoadedCommand;
+        public ICommand FrameLoadedCommand => (_frameLoadedCommand = _frameLoadedCommand ?? new MvxCommand(() => ShowViewModel<SecondViewModel>()));
+
         public FirstViewModel()
 		{
 		}
-	}
+    }
 }
