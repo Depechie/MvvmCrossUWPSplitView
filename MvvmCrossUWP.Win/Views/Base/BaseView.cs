@@ -1,5 +1,5 @@
 ﻿using Windows.UI.Xaml.Navigation;
-using Cirrious.MvvmCross.WindowsUWP.Views;
+using MvvmCross.Uwp.Views;
 
 namespace MvvmCrossUWP.Win.Views
 {

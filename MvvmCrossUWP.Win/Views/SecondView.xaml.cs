@@ -1,4 +1,4 @@
-﻿using Cirrious.MvvmCross.WindowsUWP.Views;
+﻿using MvvmCross.Uwp.Views;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 

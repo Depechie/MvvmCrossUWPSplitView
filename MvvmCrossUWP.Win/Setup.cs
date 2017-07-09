@@ -1,8 +1,8 @@
 ﻿using Windows.UI.Xaml.Controls;
-using Cirrious.CrossCore;
-using Cirrious.MvvmCross.ViewModels;
-using Cirrious.MvvmCross.WindowsUWP.Platform;
-using Cirrious.MvvmCross.WindowsUWP.Views;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
+using MvvmCross.Uwp.Platform;
+using MvvmCross.Uwp.Views;
 using MvvmCrossUWP.Core.Services.Interfaces;
 using MvvmCrossUWP.Win.Services;
 
