@@ -1,8 +1,7 @@
-using Cirrious.CrossCore;
 
 namespace MvvmCrossUWP.Core
 {
-    public class App : Cirrious.MvvmCross.ViewModels.MvxApplication
+    public class App : MvvmCross.Core.ViewModels.MvxApplication
     {
         public override void Initialize()
         {
